@@ -42,7 +42,8 @@ a {
 }
 
 .header a {
-	color: #FFFF99;
+	/*color: #FFFF99;*/
+	color: #FFFFFF;
 }
 
 .main-screen {

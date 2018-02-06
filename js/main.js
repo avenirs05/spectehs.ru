@@ -2,7 +2,8 @@ $(function () {
 
     // Выделение цветом нужного пункта меню
     var colorClicked = 'rgb(255, 193, 7)'; //оранжевый #FFC107
-    var colorDefault = 'rgb(255, 255, 153)'  // бледно-желтый #FFFF99
+    // var colorDefault = 'rgb(255, 255, 153)';  // бледно-желтый #FFFF99
+    var colorDefault = 'white'; 
     var colorHover = 'yellow'; 
     var linkDesk = ".header ul li a";
     var linkMob = '#header-mob li a';
