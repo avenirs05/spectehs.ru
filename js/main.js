@@ -49,8 +49,8 @@ $(function () {
     
 
     // Маска ввода номера телефона
-    $(".phone-field").mask("(+380) 99-999-99-99");
-    $(".phone-field-mob").mask("(+380) 99 999 99 99", {placeholder: " " });
+    $(".phone-field").mask("(+7) 999-999-99-99");
+    $(".phone-field-mob").mask("(+7) 999 999 99 99", {placeholder: " " });
  
     
 
