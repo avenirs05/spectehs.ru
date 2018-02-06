@@ -6,20 +6,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">		
 	
-	  <meta name="yandex-verification" content="3103cf9d09b38ccb" />
-	
-    <!-- Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	  <meta name="yandex-verification" content="3103cf9d09b38ccb" />   
+    <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">    
 
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-
-    <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">   
+    
+    
+    
     <link href="../style.css" rel="stylesheet">
-
-
   </head>
 
   <body>	    
@@ -38,7 +34,7 @@
             <a href="/"><img src="/imgs/logo.png" height="40" alt=""></a>
           </div>
           <ul class="col d-flex align-items-center list-unstyled list-inline">
-            <li class="list-inline-item"><a href="/#why-uber-section" id="why-uber-link">О нас</a></li>
+            <li class="list-inline-item"><a href="/#why-uber-section" id="why-uber-link">Почему мы</a></li>
             <li class="list-inline-item"><a href="/#req-drivers-section" id="req-drivers-link">Ремонт</a></li>
             <li class="list-inline-item"><a href="/#req-auto-section" id="req-auto-link">Прайс-лист</a></li>
             <li class="list-inline-item"><a href="/#our-commission-section" id="our-commission-link">Выезд</a></li>
@@ -59,7 +55,7 @@
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
         	<ul class="col list-unstyled">
-        		<li><a href="#why-uber-section" id="why-uber-link-mob">О нас</a></li><br>
+        		<li><a href="#why-uber-section" id="why-uber-link-mob">Почему мы</a></li><br>
         		<li><a href="#req-drivers-section" id="req-drivers-link-mob">Ремонт</a></li><br>
         		<li><a href="#req-auto-section" id="req-auto-link-mob">Прайс-лист</a></li><br>
         		<li><a href="#our-commission-section" id="our-commission-link-mob">Выезд</a></li><br>

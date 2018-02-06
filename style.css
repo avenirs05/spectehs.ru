@@ -1,3 +1,14 @@
+@font-face {
+	font-family: 'Open Sans Condensed', sans-serif;
+	src: url("/fonts/OpenSansCondensed-Light.ttf");
+}
+
+@font-face {
+	font-family: 'Open Sans Condensed', sans-serif;
+	src: url("/fonts/OpenSansCondensed-Bold.ttf");
+}
+
+
 body {
 		padding-top: 54px;
 }
@@ -26,7 +37,8 @@ a {
 }
 
 .header .phone-digits {
-	font-size: 22px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 28px;
 	margin-right: 10px;
 	margin-left: 5px;
 	padding-bottom: 1px;
@@ -47,7 +59,7 @@ a {
 }
 
 .main-screen {
-	background-image: url("imgs/taxi-bg.jpg");
+	background-image: url("imgs/main.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
@@ -56,29 +68,49 @@ a {
 .main-screen #for-30-min {
 	color: rgb(255, 193, 7);
 	font-size: 72px;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 600;
 	margin-top: -15px;
 }
 
 .main-screen h1 {
-	font-family: 'PT Sans', sans-serif;
-	font-size: 72px;
 	color: rgb(255, 193, 7);
-	font-weight: 600;
-	margin-top: 20px;
+	font-size: 42px;
+	font-weight: 700;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-top: 40px;
+	letter-spacing: 2px;
+	margin-left: 30px;
 }
 
 .main-screen h2 {
 	color: #fff;
+	font-size: 36px;
+	font-weight: 600;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 2px;
 }
+
+.main-screen ul {
+	color: rgb(255, 255, 255);
+	font-size: 42px;
+	margin-left: 120px;
+	margin-top: 40px;
+	list-style-image: url('imgs/bullit-green.png');
+	font-family: "Open Sans Condensed",sans-serif;
+}
+
+.main-screen ul li {
+	margin-bottom: 20px;
+}
+
 
 form {
     border: 2px solid rgb(255, 255, 153);
     padding: 15px;
     border-radius: 7px;
     color: rgb(255, 255, 255);
-    margin-top: 35px;
+    margin-top: 55px;
     font-weight: 600;
     font-size: 18px;
 }
@@ -302,17 +334,18 @@ button[type="submit"]:hover {
 		padding-left: 0 !important;
 	}
 	.main-screen-mob {
-		background-image: url("imgs/taxi-bg.jpg");
+		background-image: url("imgs/main-mob.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 50vh;
+		height: 100vh;
 	}
 	.main-screen-mob h1 {
-		font-family: 'PT Sans', sans-serif;
-		font-size: 24px;
+/*		font-family: 'PT Sans', sans-serif;*/
+		font-size: 32px;
 		color: rgb(255, 193, 7);
-		font-weight: 600;
-		margin-top: 15px;
+		font-weight: 700;
+		font-family: 'Open Sans Condensed', sans-serif;
+		margin-top: 35px;
 	}
 	.main-screen-mob #for-30-min-mob {
 		color: rgb(255, 193, 7);
@@ -384,20 +417,30 @@ button[type="submit"]:hover {
 }
 
 @media screen and (min-device-width: 320px) {
-	.main-screen-mob #for-30-min-mob {
-		font-size: 24px;
-		margin-top: -10px;
+	.main-screen-mob ul {
+		color: rgb(255, 255, 255);
+		border: 1px dashed rgb(255, 255, 255);
+		border-radius: 5px;
+		margin-top: 20px;
+		padding: 10px 10px 12px 60px;
+		font-family: "Open Sans Condensed",sans-serif;		
+		font-size: 28px;
+		list-style-image: url("imgs/bullit-green.png");
+		width: 100%;
+	}
+
+	.main-screen-mob ul li {
+		margin-bottom: 10px;
 	}
 }
 
 @media screen and (min-device-width: 360px) {
 	.main-screen-mob h1 {
-		font-size: 26px;
 		margin-top: 30px;
+		letter-spacing: 2px;
 	}
-	.main-screen-mob #for-30-min-mob {
-		font-size: 26px;
-		margin-top: -7px;
+	.main-screen-mob ul {
+		width: 90%;
 	}
 
 }
@@ -405,11 +448,14 @@ button[type="submit"]:hover {
 @media screen and (min-device-width: 480px) {
 	.main-screen-mob h1 {
 		font-size: 28px;
-		margin-top: 50px;
+		margin-top: 50px;	
 	}
 	.main-screen-mob #for-30-min-mob {
 		font-size: 28px;
 		margin-top: -7px;
+	}
+	.main-screen-mob ul {
+		width: 80%;
 	}
 }
 
@@ -421,6 +467,9 @@ button[type="submit"]:hover {
 	.main-screen-mob #for-30-min-mob {
 		font-size: 32px;
 		margin-top: -7px;
+	}
+	.main-screen-mob ul {
+		width: 50%;
 	}
 }
 
@@ -436,7 +485,7 @@ button[type="submit"]:hover {
     padding-right: 0;
 	}
 	.main-screen .headers {
-		padding-left: 40px;
+		/*padding-left: 40px;*/
 	}
 	.main-screen .headers h1 {
 		font-size: 62px;
