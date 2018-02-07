@@ -98,12 +98,13 @@ a {
 	margin-top: 40px;
 	list-style-image: url('imgs/bullit-green.png');
 	font-family: "Open Sans Condensed",sans-serif;
+	letter-spacing: 1px;
 }
 
 .main-screen ul li {
 	margin-bottom: 20px;
+	/*padding-left: 10px;*/
 }
-
 
 form {
     border: 2px solid rgb(255, 255, 153);
@@ -165,7 +166,7 @@ button[type="submit"]:hover {
 }
 
 .logo-mob {
-	margin-top: 15px;
+	margin-top: 30px;
 }
 
 .form-wrapper-mob {
@@ -321,6 +322,10 @@ button[type="submit"]:hover {
 }
 
 @media screen and (max-device-width: 991px) {
+	.main-screen-mob a {
+		display: block;
+		text-align: center;
+	}
 	.navbar {
 		padding-left: 0;
 	}
@@ -413,6 +418,17 @@ button[type="submit"]:hover {
 	#modal-all-conditions .all-conditions-text {
 		width: 100%;
 	}
+	#btn-order-mob {
+		margin-top: 30px;
+	}
+	#modal-form-mob label {
+		color: #000;		
+	}
+
+	#modal-form-mob form {
+		margin-top: 0;
+		border: 1px dashed black;
+	}
 
 }
 
@@ -422,7 +438,7 @@ button[type="submit"]:hover {
 		border: 1px dashed rgb(255, 255, 255);
 		border-radius: 5px;
 		margin-top: 20px;
-		padding: 10px 10px 12px 60px;
+		padding: 10px 10px 5px 60px;
 		font-family: "Open Sans Condensed",sans-serif;		
 		font-size: 28px;
 		list-style-image: url("imgs/bullit-green.png");
@@ -431,6 +447,7 @@ button[type="submit"]:hover {
 
 	.main-screen-mob ul li {
 		margin-bottom: 10px;
+		/*padding-left: 5px;*/
 	}
 }
 
@@ -441,6 +458,9 @@ button[type="submit"]:hover {
 	}
 	.main-screen-mob ul {
 		width: 90%;
+	}
+	#btn-order-mob {
+		margin-top: 35px;
 	}
 
 }
@@ -455,7 +475,13 @@ button[type="submit"]:hover {
 		margin-top: -7px;
 	}
 	.main-screen-mob ul {
-		width: 80%;
+		width: 65%;
+	}
+	#btn-order-mob {
+		width: 66%;
+	}
+	#btn-order-mob {
+		margin-top: 100px;
 	}
 }
 
@@ -483,9 +509,6 @@ button[type="submit"]:hover {
 	.navbar {
     padding: .5rem 0.3rem;
     padding-right: 0;
-	}
-	.main-screen .headers {
-		/*padding-left: 40px;*/
 	}
 	.main-screen .headers h1 {
 		font-size: 62px;

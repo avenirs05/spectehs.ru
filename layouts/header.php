@@ -31,7 +31,7 @@
     <div class="container-fluid sticky-top header d-none d-lg-block">
       <nav class="row navbar navbar-light bg-dark">
           <div class="col-auto d-flex align-items-center">
-            <a href="/"><img src="/imgs/logo.png" height="40" alt=""></a>
+            <a href="/"><img src="/imgs/logo.png" height="47" alt=""></a>
           </div>
           <ul class="col d-flex align-items-center list-unstyled list-inline">
             <li class="list-inline-item"><a href="/#why-uber-section" id="why-uber-link">Почему мы</a></li>

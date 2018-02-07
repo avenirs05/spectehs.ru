@@ -22,7 +22,9 @@
 <div class="container-fluid d-lg-none main-screen-mob">
 	<div class="row">
 		<div class="col">
-			<a href="/"><img class="logo-mob" src="imgs/logo.png" height="30" alt=""></a>
+			<a href="/">
+				<img class="logo-mob" src="imgs/logo.png" height="40" alt="">
+			</a>
 			<h1 class="text-center">Ремонт автопогрузчиков</h1>
 			<!-- <p class="text-center" id="for-30-min-mob">за 1 день</p> -->
 			<div>
@@ -31,6 +33,11 @@
 					<li>Запчасти в наличии</li>
 					<li>Гарантия 60 дней</li>
 				</ul>
+			</div>
+			<div class="row text-center">
+				<div class="col col-lg-3 ml-auto mr-auto">					
+					<button id="btn-order-mob" type="submit" class="btn btn-primary d-lg-none">Заказать ремонт</button>
+				</div>	
 			</div>
 		</div>
 	</div>		    

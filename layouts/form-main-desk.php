@@ -13,7 +13,7 @@
   </div>
   <div class="form-group">
     <label>Ваш вопрос</label>
-    <textarea class="form-control" placeholder="Введите ваше сообщения" name="message" id="main-textarea" rows="3"></textarea>
+    <textarea class="form-control" placeholder="Введите ваше сообщение" name="message" id="main-textarea" rows="3"></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Заказать ремонт</button>
 </form>

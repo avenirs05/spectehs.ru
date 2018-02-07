@@ -58,8 +58,8 @@ $(function () {
     $('#btn-fit').click(function() { 
         $('#modal-fit').modal('show'); 
     });
-    $('#btn-fit-mob').click(function() { 
-        $('#modal-fit-mob').modal('show'); 
+    $('#btn-order-mob').click(function() { 
+        $('#modal-form-mob').modal('show'); 
     });
     $('#btn-all-conditions').click(function() { 
         $('#modal-all-conditions').modal('show'); 
